@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+::-webkit-scrollbar { width: 5px; }
+::-webkit-scrollbar-track { background: #080b14; }
+::-webkit-scrollbar-thumb { background: #1c2538; border-radius: 3px; }
+
+@layer components {
+  .card { @apply bg-rivus-card border border-rivus-border rounded-xl p-5; }
+  .btn { @apply font-semibold px-5 py-2.5 rounded-lg transition-colors duration-150 disabled:opacity-40 disabled:cursor-not-allowed text-sm; }
+  .btn-primary { @apply btn bg-rivus-blue hover:bg-blue-500 text-white; }
+  .btn-ghost  { @apply btn border border-rivus-border hover:border-rivus-blue text-gray-300 hover:text-white; }
+  .input      { @apply w-full bg-rivus-bg border border-rivus-border text-white placeholder-gray-600 rounded-lg px-4 py-2.5 text-sm focus:outline-none focus:border-rivus-blue transition-colors; }
+  .label      { @apply block text-xs text-gray-500 mb-1.5 uppercase tracking-wider; }
+  .badge      { @apply text-xs font-mono px-2 py-0.5 rounded-full; }
+  .progress-bar { @apply h-1.5 rounded-full bg-rivus-border overflow-hidden; }
+}

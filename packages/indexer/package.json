@@ -1,0 +1,27 @@
+{
+  "name": "@rivus/indexer",
+  "version": "0.1.0",
+    "type": "module",
+  "private": true,
+  "description": "Horizon event watcher and REST API for Rivus stream history",
+  "scripts": {
+    "dev": "tsx watch src/index.ts",
+    "build": "tsc -p tsconfig.json",
+    "start": "node dist/index.js",
+    "lint": "eslint src --ext .ts",
+    "clean": "rm -rf dist"
+  },
+  "dependencies": {
+    "@stellar/stellar-sdk": "^12.3.0",
+    "fastify": "^4.28.1",
+    "@fastify/cors": "^9.0.1",
+    "better-sqlite3": "^11.3.0",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "@types/better-sqlite3": "^7.6.11",
+    "@types/node": "^22.7.5",
+    "tsx": "^4.19.1",
+    "typescript": "^5.6.3"
+  }
+}
