@@ -7,6 +7,15 @@
 [![Built with Turborepo](https://img.shields.io/badge/Monorepo-Turborepo-blueviolet)](https://turbo.build)
 [![Drips Wave 5](https://img.shields.io/badge/Drips-Wave%205-orange)](https://drips.network)
 
+## Live Deployment
+
+| | |
+|---|---|
+| **Network** | Stellar Testnet |
+| **Contract ID** | `CBVR6NVBTC4QKICSMTLX663PE7KOSACQOXZ6HPK3VBSORBHJ22D7ZW27` |
+| **Explorer** | [View on Stellar Expert](https://stellar.expert/explorer/testnet/contract/CBVR6NVBTC4QKICSMTLX663PE7KOSACQOXZ6HPK3VBSORBHJ22D7ZW27) |
+| **WASM Hash** | `d8256db7e64cb3844104c27173fc6e20a92aa988e09527fd4e37e75e7b613e90` |
+
 ---
 
 ## The Problem
